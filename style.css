@@ -37,7 +37,7 @@ img {
 
 .navbar {
   background: #000000;
-  padding: 20px;
+  padding: 15px;
   position: fixed;
   /* position: absolute; */
   top: 0;
@@ -77,11 +77,11 @@ img {
 /* Hero */
 
 .hero {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   background: url("images/herobg.png.jpg") no-repeat;
   background-size: cover;
   background-position: center bottom;
-  height: 1000px;
+  height: 800px;
 
   display: grid;
   justify-content: center;
@@ -105,6 +105,12 @@ img {
   text-align: center;
 }
 
+.hero .hero-name {
+  color: #4891ff;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
 .hero .hero-text {
   /* width: 70%; */
   margin-bottom: 20px;
@@ -115,10 +121,27 @@ img {
   color: #fff;
 }
 
+.hero .socials {
+  font-size: 3rem;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .socials i {
+  transition: 0.5s;
+}
+
+.hero .socials i:hover {
+  color: #4891ff;
+  text-shadow: 3px 3px 3px #000;
+}
+
 /* Video */
 
 .video {
   padding: 10px 0 40px;
+  background: #4891ff;
 }
 
 .video-content {
